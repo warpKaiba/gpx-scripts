@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         GPX - Open pokechests
 // @namespace    https://github.com/warpKaiba/
-// @version      0.2
+// @version      0.3
 // @description  Adds open all pokechests button
 // @author       kaiba
 // @include      https://gpx.plus/*
 // @grant        none
 // @icon         https://pbs.twimg.com/profile_images/1797456195/icon_400x400.png
-// @downloadURL  https://github.com/warpKaiba/gpx-scripts/gpxOpenPokechests.user.js
+// @downloadURL  https://github.com/warpKaiba/gpx-scripts/raw/master/gpxOpenPokechests.user.js
 // ==/UserScript==
 
 (function() {
