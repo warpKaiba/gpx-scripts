@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         GPX - Open pokechests
 // @namespace    https://github.com/warpKaiba/
-// @version      0.1
-// @description  thinking emoji
+// @version      0.2
+// @description  Adds open all pokechests button
 // @author       kaiba
 // @include      https://gpx.plus/*
 // @grant        none
@@ -51,7 +51,7 @@
     function openChests() {
         console.log("openChests fired")
         var chests = $("#unopenedChestsDiv .unopenedChest")
-        for (var i = 0; i<5; i++) {
+        for (var i = 0; i<chests.length; i++) {
 
             //             chests[i].click()
             var data = "";
